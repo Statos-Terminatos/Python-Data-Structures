@@ -5,8 +5,6 @@ import turtle
 import os
 
 
-
-
 def main():
     filename = input("Please enter drawing filename: ")
     t = turtle.Turtle()
@@ -52,6 +50,6 @@ def main():
     screen.exitonclick()
     print("Program Execution Completed.")
 
-#if __name__ == "__main__":
- #       main()
+if __name__ == "__main__":
+        main()
 
