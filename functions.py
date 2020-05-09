@@ -70,3 +70,15 @@ print(content)
 
 with open("vegetables.txt", "w") as file:
     file.write("Tomato\nOnion\n")
+
+# to append at the end of the existing file and read use a+: 
+with open('Python data structures/fruits.txt', "a+") as file: 
+    file.write("\nbanana2")
+    file.seek(0) 
+    content = file.read()
+
+print(content)
+
+# in terminal type sys.prefix to see the python version used
+#  copy and paste link by typing in terminal to open python directory: open 'link'
+
