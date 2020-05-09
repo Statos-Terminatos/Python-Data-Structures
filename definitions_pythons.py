@@ -6,6 +6,7 @@ import os
 
 
 def main():
+    # Set name by default 'turtle.csv'
     filename = input("Please enter drawing filename: ")
     t = turtle.Turtle()
     screen = t.getscreen()
